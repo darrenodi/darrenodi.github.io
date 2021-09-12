@@ -5,369 +5,47 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mobile Portfolio</title>
-  <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+  	html { width: 100%; height: 100%; }
+body { text-align: center; margin: 0px; padding: 0px; height: 100%; color: #fff; font-family: sans-serif;
+background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+background-size: 400% 400%;
+-webkit-animation: Gradient 15s ease infinite;
+-moz-animation: Gradient 15s ease infinite;
+animation: Gradient 15s ease infinite;}
+.vh { height: 100%; align-items: center; display: flex; }
+.vh > div { width: 100%; text-align: center; vertical-align: middle; }
+img { max-width: 100%; }
+.wrap {text-align: center;}
+.wrap h1 {font-size: 30px;font-weight: 700;margin: 0 0 90px;}
+.wrap h2 {font-size: 24px;font-weight: 400;line-height: 1.6;margin: 0 0 80px;}
+@-webkit-keyframes Gradient {
+0% {background-position: 0% 50%}
+50% {background-position: 100% 50%}
+100% {background-position: 0% 50%}
+}
+@-moz-keyframes Gradient {
+0% {background-position: 0% 50%}
+50% {background-position: 100% 50%}
+100% {background-position: 0% 50%}
+}
+@keyframes Gradient {
+0% {background-position: 0% 50%}
+50% {background-position: 100% 50%}
+100% {background-position: 0% 50%}
+}
+  </style>
 </head>
 
 <body>
-  <header class="toolbar">
-    <a href="#" class="my-logo">My Logo</a>
-    <nav>
-      <a href="email-link" class="icon-item"><i class="fa fa-bars"></i></a>
-      <a href="#portfolio" class="menu-items">Portfolio</a>
-      <a href="#about" class="menu-items">About</a>
-      <a href="#contact" class="menu-items">Contact</a>
-      <a href="email-link" class="menu-items"><i class="fa fa-envelope"></i></a>
-    </nav>
-
-  </header>
-
-  <section class="headline-section">
-    <div class="introduction">
-      <h1 class="primary-text">Hey There. I’m Darren</h1>
-
-      <p class="supporting-text">I'm a Software Developer</p>
-
-      <p class="description">I can help you build a product , feature or website Look through some of my work
-        and experience! If you like what you see and have a project you need coded, 
-        don’t hestiate to contact me.</p>
-    </div>
-    
-    <ul class="social-media">
-      <li><a href="https://twitter.com/DarrenOdi"><img src="images/vectors/twitter.png" alt="Twitter"></a></li>
-      <li><a href="https://www.linkedin.com/in/darren-odi-404ba31b2/"><img src="images/vectors/linkedin.png" alt="Linkedin"></a></li>
-      <li><a href="https://medium.com/@tantheta85"><img src="images/vectors/medium.png" alt="Medium"></a></li>
-      <li><a href="https://github.com/darrenodi"><img src="images/vectors/github.png" alt="Github"></a></li>
-      <li><a href="https://angel.co/"><img src="images/vectors/angel.png" alt="angellist"></a></li>
-    </ul>
-  </section>
-
-  <section class="works">
-    <div class="title">
-      <h2 class="title-h2">My Recent Works</h2>
-      <hr class="separator">  
-
-    </div>
-
-    <div class="card-frames">
-      <div class="featured">
-        <img src="images/featured.png" alt="Featured project">
-        <div>
-          <h2>Multi-Post Stories</h2> 
-          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the 
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a standard 
-            dummy text.</p> 
-          <ul class="tags">
-            <li class="ltags">css</li>
-            <li class="ltags">html</li>
-            <li class="ltags">bootstrap</li>
-            <li class="ltags">Ruby</li>
-          </ul>
-          <button type="button" class="project-button">See Project</button>   
-          </div>
-    </div>
-
-      <div class="card-works">
-        <div class="right-frame">
-          <h2>Profesional Art Printing Data</h2> 
-
-          <p>A daily selection of privately personalized reads;
-             no accounts or sign-ups required. has been the 
-             industry's standard</p> 
-
-          <ul class="tags">
-            <li class="ltags">html</li>
-            <li class="ltags">bootstrap</li>
-            <li class="ltags">Ruby</li>
-          </ul>
-        </div>
-
-        <button type="button" class="project-button">See Project</button>
-      </div>
-
-      <div class="card-works">
-        <div class="right-frame">
-          <h2>Profesional Art Printing Data</h2> 
-
-          <p>A daily selection of privately personalized reads;
-             no accounts or sign-ups required. has been the 
-             industry's standard</p> 
-
-          <ul class="tags">
-            <li class="ltags">html</li>
-            <li class="ltags">bootstrap</li>
-            <li class="ltags">Ruby</li>
-          </ul>
-        </div>  
-        <button type="button" class="project-button">See Project</button>
-      </div>
-
-      <div class="card-works">
-        <div class="right-frame">
-          <h2>Profesional Art Printing Data</h2> 
-
-          <p>A daily selection of privately personalized reads;
-             no accounts or sign-ups required. has been the 
-             industry's standard</p> 
-
-          <ul class="tags">
-            <li class="ltags">html</li>
-            <li class="ltags">bootstrap</li>
-            <li class="ltags">Ruby</li>
-          </ul>
-        </div>
-        <button type="button" class="project-button">See Project</button>
-      </div>
-
-      <div class="card-works">
-        <div class="right-frame">
-          <h2>Profesional Art Printing Data</h2> 
-
-          <p>A daily selection of privately personalized reads;
-             no accounts or sign-ups required. has been the 
-             industry's standard</p> 
-
-          <ul class="tags">
-            <li class="ltags">html</li>
-            <li class="ltags">bootstrap</li>
-            <li class="ltags">Ruby</li>
-          </ul>
-        </div>
-        <button type="button" class="project-button">See Project</button>
-      </div>
-
-      <div class="card-works">
-        <div class="right-frame">
-          <h2>Profesional Art Printing Data</h2> 
-
-          <p>A daily selection of privately personalized reads;
-             no accounts or sign-ups required. has been the 
-             industry's standard</p> 
-
-          <ul class="tags">
-            <li class="ltags">html</li>
-            <li class="ltags">bootstrap</li>
-            <li class="ltags">Ruby</li>
-          </ul>
-        </div>
-        <button type="button" class="project-button">See Project</button>
-      </div>
-
-      <div class="card-works">
-        <div class="right-frame">
-          <h2>Profesional Art Printing Data</h2> 
-
-          <p>A daily selection of privately personalized reads;
-             no accounts or sign-ups required. has been the 
-             industry's standard</p> 
-
-          <ul class="tags">
-            <li class="ltags">html</li>
-            <li class="ltags">bootstrap</li>
-            <li class="ltags">Ruby</li>
-          </ul>
-        </div>
-        <button type="button" class="project-button">See Project</button>
-      </div>
-
-      <div class="desktop-card-works one">
-         
-        <button type="button" class="project-button">See Project</button>
-      </div>
-
-      <div class="desktop-card-works two">
-        <div class="right-frame">
-          <h2>Data Dashboard Healthcare</h2> 
-
-          <p>A daily selection of privately personalized reads;
-             no accounts or sign-ups required. has been the 
-             industry's standard</p> 
-
-          <ul class="tags">
-            <li class="ltags">html</li>
-            <li class="ltags">bootstrap</li>
-            <li class="ltags">Ruby</li>
-          </ul>
-        </div>  
-      </div>
-
-      <div class="desktop-card-works three">
-        <div class="right-frame">
-          <h2>Website Protfolio </h2> 
-
-          <p>A daily selection of privately personalized reads;
-             no accounts or sign-ups required. has been the 
-             industry's standard</p> 
-
-          <ul class="tags">
-            <li class="ltags">html</li>
-            <li class="ltags">bootstrap</li>
-            <li class="ltags">Ruby</li>
-          </ul>
-        </div>  
-      </div>
-
-      <div class="desktop-card-works four">
-        <div class="right-frame">
-          <h2>Profesional Art Printing Data More</h2> 
-
-          <p>A daily selection of privately personalized reads;
-             no accounts or sign-ups required. has been the 
-             industry's standard</p> 
-
-          <ul class="tags">
-            <li class="ltags">html</li>
-            <li class="ltags">bootstrap</li>
-            <li class="ltags">Ruby</li>
-          </ul>
-        </div>  
-      </div>
-
-      <div class="desktop-card-works five">
-        <div class="right-frame">
-          <h2>Data Dashboard Healthcare</h2> 
-
-          <p>A daily selection of privately personalized reads;
-             no accounts or sign-ups required. has been the 
-             industry's standard</p> 
-
-          <ul class="tags">
-            <li class="ltags">html</li>
-            <li class="ltags">bootstrap</li>
-            <li class="ltags">Ruby</li>
-          </ul>
-        </div>  
-      </div>
-
-      <div class="desktop-card-works six">
-        <div class="right-frame">
-          <h2>Website Protfolio </h2> 
-
-          <p>A daily selection of privately personalized reads;
-             no accounts or sign-ups required. has been the 
-             industry's standard</p> 
-
-          <ul class="tags">
-            <li class="ltags">html</li>
-            <li class="ltags">bootstrap</li>
-            <li class="ltags">Ruby</li>
-          </ul>
-        </div>  
-      </div>
-
-    </div>
-
-  </section>
-
-  <section class="about">
-    <div class="intro">
-      <h2 class="primary-text">About me</h2>
-
-      <p class="description">Hello I’m a software developer! I can help you build a product , feature 
-        or website Look through some of my work and experience! If you like what you see and have a 
-        project you need coded, don’t hestiate to contact me.</p>
-
-      <button type="button" class="project-button">Get My Resume</button>
-    </div>
-
-    <hr>
-
-    <ul class="skills-section">
-      <li>
-        <div class="skill">
-          <img src="images/diamond.png" alt="diamond">
-          <p>Language</p>
-        </div>
-
-        <div class="skill-att">
-          <ul>
-            <li>Javascript</li>
-            <li>Ruby</li>
-            <li>Html</li>
-            <li>Css</li>
-            <li class="blank-text">Yes</li>
-          </ul>
-        </div>
-
-      </li>
-      
-      <li>
-        <div class="skill">
-          <img src="images/square.png" alt="Frameworks">
-          <p>Frameworks</p>
-        </div>
-
-        <div class="skill-att">
-          <ul>
-            <li>Bootstrap</li>
-            <li>Ruby on Rails</li>
-            <li>RSPec</li>
-            <li>CapyBara</li>
-            <li>Selenium</li>
-          </ul>
-        </div>
-
-      </li>
-
-      <li>
-        <div class="skill">
-          <img src="images/circle.png" alt="Skills">
-          <p>Skills</p>
-        </div>
-
-        <div class="skill-att">
-          <ul>
-            <li>Codekit</li>
-            <li>Github</li>
-            <li>Codepen</li>
-            <li>Gitlab</li>
-            <li>Terminal</li>
-          </ul>
-        </div>
-
-      </li>
-    </ul>
-  </section>
-
-  <section class="contact-form">
-    <h2>I'm always interested in hearing about new projects, 
-      so if you'd like to chat please get in touch.</h2>
-
-    <form action="https://formspree.io/f/xrgrodja" method="post">
-      <ul class="form-elements">
-        <li>
-          <input type="text" name="name" required placeholder="Full name" maxlength="30">
-        </li>
-        <li> 
-          <input type="email" name="email" required placeholder="Email address">
-        </li>
-        <li>
-          <textarea name="textarea" id="textarea" rows="10" cols="30"  
-          required placeholder="Enter text here" maxlength="500"></textarea>
-        </li>
-        <li class="button-only">
-          <button type="submit" class="project-button">Get in touch</button>
-        </li>
-      </ul>
-    </form>
-
-  </section>
-
-  <footer>
-    <hr class="separator">
-
-    <div class="bottom-navigation">
-      
-      <ul class="social-media">
-        <li><a href="https://twitter.com/DarrenOdi"><img src="images/vectors/dtwitter.png" alt="Twitter"></a></li>
-        <li><a href="https://www.linkedin.com/in/darren-odi-404ba31b2/"><img src="images/vectors/dlinkedin.png" alt="Linkedin"></a></li>
-        <li><a href="https://medium.com/@tantheta85"><img src="images/vectors/dmedium.png" alt="Medium"></a></li>
-        <li><a href="https://github.com/darrenodi"><img src="images/vectors/dgithub.png" alt="Github"></a></li>
-        <li><a href="https://angel.co/"><img src="images/vectors/dangel.png" alt="angellist"></a></li>
-      </ul>
-
-      <hr class="bottom-shape">
-      </div>
-  </footer>
+  <div class="vh">
+  <div>
+   <div class="wrap">
+	<h1>Maintenance mode</h1>
+	<h2><p>Sorry for the inconvenience.<br>My website is currently undergoing scheduled maintenance.<br><br></p></h2>
+	<p>Thank you for your understanding.</p>
+	</div>
+  </div>
+</div>
 </body>
 </html>
