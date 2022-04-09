@@ -36,7 +36,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author 1**
+👤 **Darren Odi*
 
 - GitHub: [@githubhandle](https://github.com/darrenodi)
 - Twitter: [@twitterhandle](https://twitter.com/darrenodi)
